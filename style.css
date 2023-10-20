@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+@font-face{
+    font-family: myFont;
+    src: url(Valorant\ Font.ttf);
+}
+
+body{
+    width: 100vw;
+    background: linear-gradient(to bottom, #53212B, #BD3944);
+}
+
+main{
+    margin: 0 3%; 
+    
+}
+h1 {
+    color: white;
+    font-size: 4vw;
+    text-align: center; 
+    font-family: myFont;
+}
+
+.titulo{
+    width: 100%;
+    position: absolute;
+}
+
+.logo img {
+    margin-left: 2vw;
+    width: 9vw; 
+}
+
+header{
+    display:flex;
+    background-color: #BD3944; 
+    align-items: center;
+}
+
+#CharacterIMG{
+
+    width: 53%;
+    height: 50%;
+    
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.botao button{
+    margin: 2% 5%;
+}
+
+#ButtonUp{
+    width: 5vw;
+    height: 3vw;
+    border-radius: 15px;
+}
+
+#ButtonDwn{
+    border-radius: 15px;
+    width: 5vw;
+    height: 3vw;
+}
+
+.informacoes{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.textos{
+    text-align: justify;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#displayName{
+    font-family: myFont;
+    font-size: 2,7vw;
+    text-align: center; 
+    font-size: 220%;
+    color: #FD4556;
+}
+#categoriaName{
+    font-family: myFont;
+    margin-top: 3%;
+    color: #FD4556;
+}
+
+#habilidade00Name{
+    font-family: myFont; 
+    margin-top: 3%;
+    color: #FD4556;
+}
+
+#habilidade01Name{
+    font-family: myFont;
+    margin-top: 3%;
+    color: #FD4556;
+}
+
+footer{
+    background-color: #53212B;
+    width: 100%;
+    height: 7vw;
+}
+
+.logoFooter img{
+    width: 9vw;
+    margin-left: 2vw;
+    opacity: 40%;
+}
+
+.footerEscrito{
+    color: rgba(170, 170, 170, 0.836);
+    text-align: center;
+    font-size: 0.8vw;
+    width: 40%;
+}
+
+.footerAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .informacoes{
+        display: block ;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #CharacterIMG{
+        width: 90vw;
+    }
+
+    .botao button{
+        margin: 6% 10%;
+    }
+    
+    #ButtonUp{
+        width: 12vw;
+        height: 12vw;
+        border-radius: 15px;
+    }
+    
+    #ButtonDwn{
+        border-radius: 15px;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    footer{
+        height: 20vw;
+        align-items: center;
+        display: flex;
+    }
+
+    .footerEscrito{
+        font-size: 9px;
+        width: 70%;
+    }
+
+    .logoFooter img{
+        display: none;
+    }
+
+    header{
+        height: 20vw;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .logo img{
+        width: 17vw;
+    }
+
+    .textos{
+        margin: 5%;
+    }
+
+    h2{
+        margin: 3% 0;
+    }
+}
+
+
+  
